@@ -5,7 +5,7 @@
 一个功能强大的图像处理系统，集成了图像分割、视频分割和图像融合等功能，采用EGNet显著性检测模型实现高精度的图像分割。
 
 <div align="center">
-  <img src="docs/web_segment.png" alt="系统主界面" width="800">
+  <img src="docs/web_segment.gif" width="800">
 </div>
 
 ---
