@@ -2,10 +2,8 @@
 
 > **基于显著性检测的在线图像分割融合系统**
 
-一个功能强大的图像处理系统，集成了图像分割、视频分割和图像融合等功能，采用EGNet显著性检测模型实现高精度的图像分割。
-
 <div align="center">
-  <img src="docs/web_segment.gif" width="800">
+  <img src="docs/web_segment.gif" width="600">
 </div>
 
 ---
@@ -29,7 +27,7 @@
 
 ## 📖 项目简介
 
-图像智能分割与融合系统是一个基于深度学习的图像处理桌面应用程序，采用EGNet显著性检测模型实现高精度的图像分割和融合功能。
+图像智能分割与融合系统是一个基于深度学习的图像处理桌面应用程序，采用[EGNet](https://github.com/JXingZhao/EGNet)显著性检测模型实现高精度的图像分割和融合功能。该项目在2021年获得计设的国二、互联网+省二。
 
 ### 核心功能
 
@@ -349,7 +347,7 @@ python WBNetMain.py
 
 <div align="center">
 
-**图像智能分割与融合系统** - 让图像处理更简单、更智能
+**Why so serious？**
 
 Made with ❤️ using PyQt5 and EGNet
 
