@@ -1,16 +1,17 @@
-# WebSegmentSystem 图像智能分割与融合系统
+# WebSegmentSystem
 
-<div align="center">
-
-![](docs/web_segment.gif)
-
-**基于显著性检测的在线图像分割融合系统**
+> **基于显著性检测的在线图像分割融合系统**
 
 一个功能强大的图像处理系统，集成了图像分割、视频分割和图像融合等功能，采用EGNet显著性检测模型实现高精度的图像分割。
 
-[功能特性](#功能特性) • [快速开始](#快速开始) • [使用说明](#使用说明) • [项目结构](#项目结构)
-
+<div align="center">
+  <img src="docs/web_segment.png" alt="系统主界面" width="800">
 </div>
+
+---
+
+**快速导航**：[功能特性](#功能特性) | [快速开始](#快速开始) | [使用说明](#使用说明) | [项目结构](#项目结构)
+
 ---
 
 ## 📋 目录
@@ -28,12 +29,14 @@
 
 ## 📖 项目简介
 
-图像智能分割与融合系统是一个基于深度学习的图像处理桌面应用程序，主要功能包括：
+图像智能分割与融合系统是一个基于深度学习的图像处理桌面应用程序，采用EGNet显著性检测模型实现高精度的图像分割和融合功能。
 
-- **图像分割**：使用EGNet显著性检测模型对图像进行高精度分割
-- **网络图像采集**：支持从百度、必应、搜狗等搜索引擎批量下载图片
-- **视频分割**：对视频文件进行逐帧分割处理
-- **图像融合**：使用泊松融合算法将分割后的前景与自定义背景进行自然融合
+### 核心功能
+
+- **🖼️ 图像分割**：使用EGNet显著性检测模型对图像进行高精度分割
+- **🌐 网络图像采集**：支持从百度、必应、搜狗等搜索引擎批量下载图片
+- **🎬 视频分割**：对视频文件进行逐帧分割处理
+- **🎨 图像融合**：使用泊松融合算法将分割后的前景与自定义背景进行自然融合
 
 系统采用PyQt5构建了现代化的图形用户界面，操作简单直观，适合图像处理、视频编辑、背景替换等多种应用场景。
 
@@ -214,7 +217,11 @@ python WBNetMain.py
 
 #### 1. 本地分割
 
-![本地分割界面](docs/local_cut.png)
+<div align="center">
+  <img src="docs/local_cut.png" alt="本地分割界面" width="600">
+</div>
+
+**操作步骤：**
 
 1. 点击左侧导航栏的"本地分割"
 2. 点击"选择文件夹"按钮，选择包含图片的文件夹
@@ -223,7 +230,11 @@ python WBNetMain.py
 
 #### 2. 网络分割
 
-![网络分割界面](docs/internet_cut.png)
+<div align="center">
+  <img src="docs/internet_cut.png" alt="网络分割界面" width="600">
+</div>
+
+**操作步骤：**
 
 1. 点击左侧导航栏的"网络分割"
 2. 在"关键字"输入框中输入搜索关键词（如"风景"）
@@ -233,7 +244,11 @@ python WBNetMain.py
 
 #### 3. 视频分割
 
-![视频分割界面](docs/video_cut.png)
+<div align="center">
+  <img src="docs/video_cut.png" alt="视频分割界面" width="600">
+</div>
+
+**操作步骤：**
 
 1. 点击左侧导航栏的"视频分割"
 2. 点击"选择视频"按钮，选择要处理的视频文件
@@ -243,7 +258,11 @@ python WBNetMain.py
 
 #### 4. 本地融合
 
-![本地融合界面](docs/local_fuse.png)
+<div align="center">
+  <img src="docs/local_fuse.png" alt="本地融合界面" width="600">
+</div>
+
+**操作步骤：**
 
 1. 点击左侧导航栏的"本地融合"
 2. 点击"选择图片"选择背景图片
@@ -253,7 +272,11 @@ python WBNetMain.py
 
 #### 5. 设置
 
-![设置界面](docs/settings.png)
+<div align="center">
+  <img src="docs/settings.png" alt="设置界面" width="600">
+</div>
+
+**操作步骤：**
 
 1. 点击左侧导航栏的"设置"
 2. 配置各项路径：
@@ -270,7 +293,9 @@ python WBNetMain.py
 
 系统主界面采用现代化的设计风格，左侧为功能导航栏，右侧为主要操作区域。
 
-![主界面](docs/main_interface.png)
+<div align="center">
+  <img src="docs/main_interface.png" alt="系统主界面" width="700">
+</div>
 
 ### 功能模块
 
@@ -329,4 +354,5 @@ python WBNetMain.py
 Made with ❤️ using PyQt5 and EGNet
 
 </div>
+
 
